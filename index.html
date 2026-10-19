@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy for undercut</title>
+<style>
+  :root { --bg:#eaf0ec; --card:#fff; --ink:#16241d; --dim:#6d7c73; --green:#0f9d4f; --line:#dde3df; }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--bg); color:var(--ink);
+    font:16px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    padding:32px 16px; }
+  main { max-width:720px; margin:0 auto; background:var(--card);
+    border-radius:20px; padding:40px 36px; }
+  h1 { font-size:32px; letter-spacing:-0.8px; margin:0 0 6px; }
+  h2 { font-size:20px; margin:36px 0 10px; letter-spacing:-0.3px; }
+  h3 { font-size:16px; margin:26px 0 8px; }
+  p, li { color:#2c3b33; }
+  a { color:var(--green); }
+  hr { border:0; border-top:1px solid var(--line); margin:30px 0; }
+  table { border-collapse:collapse; width:100%; margin:14px 0; font-size:15px; }
+  th, td { text-align:left; padding:10px 12px; border-bottom:1px solid var(--line); vertical-align:top; }
+  th { font-size:11px; letter-spacing:1px; text-transform:uppercase; color:var(--dim); }
+  code { background:#f1f4f2; border-radius:5px; padding:1px 5px; font-size:14px; }
+  ul { padding-left:22px; }
+  li { margin:5px 0; }
+  @media (max-width:560px) { main { padding:26px 20px; border-radius:16px; } h1 { font-size:26px; } }
+</style>
+</head>
+<body><main>
+<h1>Privacy Policy for undercut</h1>
+<p><strong>Last updated:</strong> [DATE]</p>
+<p>undercut is a calorie tracking app. This policy explains exactly what the app collects, where it goes, and how to get rid of it. It is written to be read rather than skimmed, and it describes what the app actually does — not what a template says it might.</p>
+<p>If anything here is unclear, contact <strong>[YOUR CONTACT EMAIL]</strong>.</p>
+<hr>
+<h2>The short version</h2>
+<p>Most of what you put into undercut never leaves your phone. Your food log — every meal, every item, every calorie — is stored only on your device and is never uploaded anywhere.</p>
+<p>Five figures are stored on our server so that friends you accept can see them: your name, your profile photo, your starting weight, your current weight, your goal weight and your streak. Nothing else.</p>
+<p>We show no ads, use no analytics or tracking of any kind, and never sell or share your data with advertisers or data brokers.</p>
+<hr>
+<h2>What stays only on your phone</h2>
+<p>The following is saved on your device and is never sent anywhere:</p>
+<ul><li><strong>Your food log</strong> — everything you eat, with calories and macronutrients</li><li><strong>Your recently logged foods</strong></li><li><strong>Your full weigh-in history</strong>, including every individual entry</li><li><strong>Your daily calorie goal and burn baseline</strong></li><li><strong>Health figures</strong> read from Apple Health (see below)</li></ul>
+<p>If you delete the app, this data is deleted with it. It is not backed up to us.</p>
+<h2>What we store on our server</h2>
+<p>undercut uses <a href="https://supabase.com">Supabase</a> to store a small amount of data so that the friends feature works across devices.</p>
+<p>When you first open the app, an <strong>anonymous account</strong> is created for you automatically. It has no email address, no password and no phone number. We do not know who you are.</p>
+<p>Against that account we store:</p>
+<table><thead><tr><th>What</th><th>Why</th></tr></thead><tbody><tr><td>The name you chose</td><td>So friends can find and recognise you</td></tr><tr><td>Your profile photo, if you set one</td><td>So friends can tell you apart from others with the same name</td></tr><tr><td>Your starting, current and goal weight</td><td>So accepted friends can see your progress</td></tr><tr><td>Your streak</td><td>The same</td></tr><tr><td>Who you are friends with</td><td>To make the friends list work</td></tr><tr><td>How many AI descriptions you have used today</td><td>To enforce the daily limit</td></tr></tbody></table>
+<p>Your weight is health information, and we treat it as such. It is readable only by you and by people you have <strong>both</strong> agreed to be friends with. This is enforced by the database itself, not merely by the app.</p>
+<h2>What other people can see</h2>
+<ul><li><strong>Anyone signed in to undercut</strong> can search for your <strong>name</strong> and see your <strong>profile photo</strong>. This is how people find each other to add. If you do not want to be findable, use a name that does not identify you.</li><li><strong>Only friends you have accepted</strong> can see your weight lost, current weight and streak. Friendship must be accepted by both sides.</li><li><strong>Nobody</strong> can see your food log. It is not on our server at all.</li></ul>
+<h2>Apple Health</h2>
+<p>If you turn on Apple Health in Profile, undercut reads <strong>one</strong> thing: the active energy you have burned, so your daily deficit reflects your real activity rather than an estimate.</p>
+<ul><li>undercut only ever <strong>reads</strong> from Health. It never writes anything to it.</li><li>The figures stay on your phone. They are not uploaded to our server and are not visible to friends.</li><li>You can revoke access at any time in the iOS Health app, under Sharing → Apps.</li></ul>
+<h2>Describing meals to AI</h2>
+<p>When you use &quot;Describe what you ate&quot;, the text you type is sent to <a href="https://anthropic.com">Anthropic</a>, the company behind the AI model Claude, which estimates the calories and macronutrients.</p>
+<ul><li><strong>Only the description is sent</strong>, along with the hour of the day and which meal you are logging into, so the estimate makes sense.</li><li>Your name, weight, goals, history and food log are <strong>not</strong> sent.</li><li>Anthropic processes the request and returns the numbers. Anthropic&#x27;s own policy applies to that processing: <a href="https://anthropic.com/legal/privacy">https://anthropic.com/legal/privacy</a></li><li>You never have to use this feature. Entering food manually or scanning a barcode does not send anything to Anthropic.</li></ul>
+<h2>Scanning barcodes</h2>
+<p>When you scan a barcode, the barcode number is sent to <a href="https://openfoodfacts.org">Open Food Facts</a>, a free and open database of food packaging, to look up the product. Nothing else is sent — not your identity, not your account, not what you did with the result.</p>
+<p>The camera is used only to read barcodes. No image is recorded, saved or uploaded.</p>
+<h2>What we do not do</h2>
+<ul><li>No advertising, and no advertising identifiers</li><li>No analytics, telemetry, behavioural tracking or crash reporting</li><li>No selling, renting or sharing your data with third parties for their own purposes</li><li>No location tracking</li><li>No email address or phone number is collected</li></ul>
+<h2>Deleting your data</h2>
+<p>In the app: <strong>Profile → Delete account</strong>.</p>
+<p>This permanently removes your weigh-ins, food log, streak, photo and friends from the phone <strong>and</strong> from our server, and deletes the account itself. Your friends will no longer see you. It cannot be undone.</p>
+<p>Deleting the app without using that option removes everything on your phone, but leaves the anonymous account on our server. Use the in-app option if you want it all gone.</p>
+<h2>Children</h2>
+<p>undercut is not intended for children under 13, and we do not knowingly collect data from them. Calorie restriction is not appropriate for children without medical supervision.</p>
+<h2>Where your data is held</h2>
+<p>Data is stored by Supabase in [REGION — e.g. US East]. AI requests are processed by Anthropic in the United States. By using those features you consent to that processing.</p>
+<h2>Your rights</h2>
+<p>Depending on where you live, you may have the right to access, correct, export or delete the information held about you. The in-app delete removes all of it. For anything else, contact <strong>[YOUR CONTACT EMAIL]</strong>.</p>
+<h2>Changes to this policy</h2>
+<p>If this policy changes materially, the app will be updated to point to the new version and the date at the top will change.</p>
+<h2>Contact</h2>
+<p><strong>[YOUR CONTACT EMAIL]</strong></p>
+</main></body>
+</html>
